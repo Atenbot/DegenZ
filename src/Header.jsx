@@ -26,7 +26,7 @@ const Header = () => {
         </div>
     </div>
     </div>
-    <div className="w-10 hidden h-10 aspect-1/1 bg-secondary absolute right-24 top-[500px] rounded-lg lg:block mt-16 mb-24">
+    <div className="w-10 hidden h-10 aspect-1/1 bg-secondary absolute right-24 top-[500px] rounded-lg lg:block mt-16">
         <ArrowRight className="rotate-90 object-cover w-full p-3 fill-white"/>
     </div>
     </div>

@@ -283,7 +283,7 @@ const Testimonials = ({ breakpoint }) => {
   }
 
   return (
-    <div className="testimonials lg:pt-12">
+    <div className="testimonials lg:pt-24 md:pt-20">
       <div className="our-story">
         <h1 className="font-barlow font-bold text-4xl text-center pt-20 mx-8 text-secondary md:pt-8 md:text-5xl md:mx-10 lg:mx-32">
           "I never thought a gc would change my life."

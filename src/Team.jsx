@@ -60,28 +60,28 @@ const Team = () => {
 
             <div className="pt-4 flex-col pb-16 hidden md:flex lg:pb-20">
             <div className="flex justify-center mx-8 gap-x-12 lg:gap-x-16 pt-14">
-            <a href="https://x.com/bodeSloMo?t=s7OygLTOy7tomiFvtH0-jw&s=09">
-                <figure className="flex flex-col items-center w-24 lg:w-32">
-                    <img src="team\bodeslomo.jpg" alt="" className=" h-auto rounded-2xl"/>
-                    <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@BodeSlomo</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Tech</p></figcaption>
-                </figure>
-                </a>
-                <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
+            <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
                     <img src="team\atensun.jpg" alt="" className=" h-auto rounded-2xl"/>
                     <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@AtenSun_</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Degen Head</p></figcaption>
                 </figure>
                 </a>
-                <a href="https://x.com/john_les_lie?t=c5F_IP8k_NvP92RIZog43w&s=09">
+                <a href="https://x.com/bodeSloMo?t=s7OygLTOy7tomiFvtH0-jw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
-                    <img src="team\johnleslie.jpg" alt="" className=" h-auto rounded-2xl"/>
-                    <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@JohnLeslie</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Degen Head</p></figcaption>
+                    <img src="team\bodeslomo.jpg" alt="" className=" h-auto rounded-2xl"/>
+                    <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@BodeSlomo</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Tech</p></figcaption>
                 </figure>
                 </a>
                 <a href="https://x.com/kkKelechi_?t=U3gLVtvGLfJV0fDqAYAzZw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
                     <img src="team\kkkelechi.jpg" alt="" className=" h-auto rounded-2xl"/>
                     <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@kkKelechi</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Tech</p></figcaption>
+                </figure>
+                </a>
+                <a href="https://x.com/john_les_lie?t=c5F_IP8k_NvP92RIZog43w&s=09">
+                <figure className="flex flex-col items-center w-24 lg:w-32">
+                    <img src="team\johnleslie.jpg" alt="" className=" h-auto rounded-2xl"/>
+                    <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@JohnLeslie</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Degen Head</p></figcaption>
                 </figure>
                 </a>
                  </div>
