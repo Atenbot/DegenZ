@@ -7,6 +7,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        'custom' : '1400px'
+      },
       colors: {
         primary: '#f35f5c', //orange
         secondary: '#043449', //blue

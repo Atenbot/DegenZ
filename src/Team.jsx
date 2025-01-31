@@ -2,10 +2,10 @@ const Team = () => {
     return ( 
 
         <div className="bg-secondary md:py-20 lg:pt-10">
-            <h1 className='text-white text-center font-barlow text-3xl font-bold md:text-5xl lg:mt-0 2xl:text-6xl 2xl:pt-4'>Meet Our Team</h1>
+            <h1 className='text-white text-center font-barlow text-3xl font-bold md:text-5xl lg:mt-0 xl:text-6xl'>Meet Our Team</h1>
             <div className="pt-4 flex flex-col pb-16 md:hidden">
 
-            <div className="flex justify-center mx-8 gap-x-8 py-8 md:gap-16 md:pt-16">
+            <div className="flex justify-center mx-8 gap-x-8 py-8 md:gap-16 md:pt-16 xl:gap-x-8">
             <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
                 <figure className="flex flex-col items-center w-16">
                     <img src="team\atensun.jpg" alt="" className=" h-auto rounded-xl md:rounded-3xl"/>
@@ -58,8 +58,8 @@ const Team = () => {
                 
             </div>
 
-            <div className="pt-4 flex-col hidden md:flex lg:pb-20">
-            <div className="flex justify-center mx-8 gap-x-12 lg:gap-x-16 pt-14">
+            <div className="pt-4 flex-col hidden md:flex lg:pb-20 xl:pt-8">
+            <div className="flex justify-center mx-8 gap-x-12 lg:gap-x-16 pt-14 xl:gap-x-20">
             <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
                     <img src="team\atensun.jpg" alt="" className=" h-auto rounded-2xl"/>
@@ -86,7 +86,7 @@ const Team = () => {
                 </a>
                  </div>
 
-                 <div className="flex justify-center mx-8 pt-16 gap-x-12 lg:gap-x-16">
+                 <div className="flex justify-center mx-8 pt-16 gap-x-12 lg:gap-x-16 xl:gap-x-20">
                  <a href="https://x.com/X_cryptopotato?t=lml6vmipPWqwsJ7mHDGc0w&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
                     <img src="team\cryptopass.jpg" alt="" className=" h-auto rounded-2xl"/>

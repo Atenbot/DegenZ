@@ -44,7 +44,7 @@ React.useEffect(() =>{
 
     return ( 
 
-        <div className="pt-16 pb-8 md:pt-20 lg:pt-16 lg:pb-20">
+        <div className="pt-16 pb-8 md:pt-20 lg:pt-16 lg:pb-20 xl:pt-24">
             <h1 className="font-barlow mx-auto w-[300px] text-3xl font-bold text-center text-secondary md:text-4xl md:w-full lg:text-5xl 2xl:pt-6 2xl:text-6xl 2xl:pb-4">Our Partners and Collaborators</h1>
             <div className="pt-12 pb-2 overflow-hidden whitespace-nowrap md:pt-14"
                     ref={ contentRef }>
