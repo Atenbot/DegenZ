@@ -1,6 +1,12 @@
 import ArrowRight from "./assets/icons/arrow-right-solid.svg?react"
 
 const Header = () => {
+
+    const scrollIntoView = () => {
+        const element = document.querySelector('#our-story');
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
     return (  
 
     <div className ="bg-primary px-4 min-h-24 md:pt-2 lg:pt-8 lg:pb-24">
@@ -27,9 +33,10 @@ const Header = () => {
         </div>
     </div>
     </div>
-    <div className="w-10 hidden h-10 aspect-1/1 bg-secondary absolute right-[3.7rem] custom:right-[2.7rem] 2xl:right-[3.7rem] rounded-lg lg:block">
+    <button className="w-10 hidden h-10 aspect-1/1 bg-secondary absolute mt-2 right-[3.7rem] custom:right-[2.7rem] 2xl:right-[3.7rem] rounded-lg lg:block"
+    onClick={ scrollIntoView }>
         <ArrowRight className="rotate-90 object-cover w-full p-3 fill-white xxl:p-3.5"/>
-    </div>
+    </button>
         </div>
     </div>
     

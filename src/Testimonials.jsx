@@ -283,7 +283,8 @@ const Testimonials = ({ breakpoint }) => {
   }
 
   return (
-    <div className="testimonials lg:pt-24 md:pt-20">
+    <div className="testimonials lg:pt-24 md:pt-20"
+    id="our-story">
       <div className="max-w-7px mx-auto">
       <div className="our-story">
         <h1 className="font-barlow font-bold text-4xl text-center pt-20 mx-8 text-secondary md:pt-8 md:text-5xl md:mx-10 lg:mx-32 2xl:text-6xl">

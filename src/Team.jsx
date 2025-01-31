@@ -2,8 +2,8 @@ const Team = () => {
     return ( 
 
         <div className="bg-secondary md:py-20 lg:pt-10">
-            <h1 className='text-white text-center font-barlow text-3xl font-bold md:text-5xl lg:mt-0 xl:text-6xl'>Meet Our Team</h1>
-            <div className="pt-4 flex flex-col pb-16 md:hidden">
+            <h1 className='text-white text-center font-jersey text-3xl font-bold md:text-5xl lg:mt-0 2xl:text-6xl'>Meet Our Team</h1>
+            <div className="pt-4 flex flex-col pb-10 md:hidden">
 
             <div className="flex justify-center mx-8 gap-x-8 py-8 md:gap-16 md:pt-16 xl:gap-x-8">
             <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
@@ -58,7 +58,7 @@ const Team = () => {
                 
             </div>
 
-            <div className="pt-4 flex-col hidden md:flex lg:pb-20 xl:pt-8">
+            <div className="pt-4 flex-col hidden md:flex xl:pt-8">
             <div className="flex justify-center mx-8 gap-x-12 lg:gap-x-16 pt-14 xl:gap-x-20">
             <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
