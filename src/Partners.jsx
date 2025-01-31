@@ -44,11 +44,11 @@ React.useEffect(() =>{
 
     return ( 
 
-        <div className="pt-16 pb-14 md:pt-24 lg:pt-24 lg:pb-24">
-            <h1 className="font-barlow text-3xl font-bold text-center text-secondary md:text-4xl">Our Partners and Collaborators</h1>
-            <div className="pt-8 overflow-hidden whitespace-nowrap md:pt-14"
+        <div className="pt-16 pb-8 md:pt-20 lg:pt-16 lg:pb-20">
+            <h1 className="font-barlow mx-auto w-[300px] text-3xl font-bold text-center text-secondary md:text-4xl md:w-full lg:text-5xl">Our Partners and Collaborators</h1>
+            <div className="pt-12 pb-2 overflow-hidden whitespace-nowrap md:pt-14"
                     ref={ contentRef }>
-                <div className={`grid grid-flow-col animate-marquee gap-4 w-fit md:gap-10 lg:gap-12 ${!playAnimation ? "animate-paused" : "animate-playing hover:animate-paused"}`}
+                <div className={`grid grid-flow-col animate-marquee gap-4 w-fit md:gap-10 lg:gap-12 ${!playAnimation ? "animate-paused" : "animate-playing lg:hover:animate-paused"}`}
                 ref= {ref}>
                     
                     {partners?.map((partner, index) => (

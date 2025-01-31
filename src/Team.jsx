@@ -1,7 +1,7 @@
 const Team = () => {
     return ( 
 
-        <div className="bg-secondary md:pt-20 lg:pt-10">
+        <div className="bg-secondary md:py-20 lg:pt-10">
             <h1 className='text-white text-center font-barlow text-3xl font-bold md:text-5xl lg:mt-0'>Meet Our Team</h1>
             <div className="pt-4 flex flex-col pb-16 md:hidden">
 
@@ -48,17 +48,17 @@ const Team = () => {
                     <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs">@CryptoPass</p><p className="text-center font-semibold font-barlow text-[10px]">Manager</p></figcaption>
                 </figure>
                 </a>
-                <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
+                <a href="https://x.com/David63241089?t=xXX0eSx3hR5FDoIi_AaPFw&s=09">
                 <figure className="flex flex-col items-center w-16 ">
-                    <img src="team\atensun.jpg" alt="" className=" h-auto rounded-xl md:rounded-3xl"/>
-                    <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs">@AtenSun_</p><p className="text-center font-semibold font-barlow text-[10px]">Degen Head</p></figcaption>
+                    <img src="team\davideth.jpg" alt="" className=" h-auto rounded-xl md:rounded-3xl"/>
+                    <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs">@David.eth</p><p className="text-center font-semibold font-barlow text-[10px]">Manager</p></figcaption>
                 </figure>
                 </a>
                  </div>
                 
             </div>
 
-            <div className="pt-4 flex-col pb-16 hidden md:flex lg:pb-20">
+            <div className="pt-4 flex-col hidden md:flex lg:pb-20">
             <div className="flex justify-center mx-8 gap-x-12 lg:gap-x-16 pt-14">
             <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
@@ -99,9 +99,9 @@ const Team = () => {
                     <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@Laroshe</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Degen Head</p></figcaption>
                 </figure>
                 </a>
-                <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
+                <a href="https://x.com/David63241089?t=xXX0eSx3hR5FDoIi_AaPFw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-32">
-                    <img src="team\atensun.jpg" alt="" className=" h-auto rounded-2xl"/>
+                    <img src="team\davideth.jpg" alt="" className=" h-auto rounded-2xl"/>
                     <figcaption className="text-white mt-2"><p className="text-center font-spaceMono text-xs md:text-lg">@David.eth</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Manager</p></figcaption>
                 </figure>
                 </a>

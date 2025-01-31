@@ -174,7 +174,7 @@ const TabletProfiles = (props) => {
       {!isExpanded && (
         <div className="flex justify-center inset-x-0 bg-gradient-to-t from-white to-transparent absolute pt-32 pb-8 bottom-0">
           <button
-            className="bg-primary text-white font-spaceMono py-3 px-5 rounded-lg"
+            className="bg-primary text-white font-spaceMono py-3.5 px-6 rounded-lg text-lg"
             onClick={handleExpand}
           >
             Show More
@@ -185,7 +185,7 @@ const TabletProfiles = (props) => {
       {isVisible && (
         <div className="flex justify-center inset-x-0 bg-gradient-to-t from-white sticky pt-32 pb-8 bottom-0 transition-all duration-3000 ease-in">
           <button
-            className="text-white font-spaceMono py-3 px-5 rounded-lg bg-secondary"
+            className="text-white font-spaceMono py-3.5 px-5 text-lg rounded-lg bg-secondary"
             onClick={handleContract}
           >
             Okay I get it
