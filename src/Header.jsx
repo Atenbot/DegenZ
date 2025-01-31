@@ -4,7 +4,7 @@ const Header = () => {
     return (  
 
     <div className ="bg-primary px-4 min-h-24 md:pt-2 lg:pt-8 lg:pb-24">
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto relative">
     <div className ="flex flex-col items-center">
     <h1 className="text-4xl pt-10 text-white mx-auto text-center font-barlow font-extrabold  md:w-[700px] md:text-5xl md:leading-tight lg:text-6xl lg:w-[900px] lg:leading-[1.2] lg:pt-4 2xl:text-7xl 2xl:w-[1200px]">
         Facilitating Financial Freedom Through Crypto.
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
     </div>
     </div>
-    <div className="w-10 hidden h-10 aspect-1/1 bg-secondary absolute right-12 xl:right-16 custom:right-28 top-[500px] rounded-lg lg:block mt-16 2xl:mt-36">
+    <div className="w-10 hidden h-10 aspect-1/1 bg-secondary absolute right-[3.7rem] custom:right-[2.7rem] 2xl:right-[3.7rem] rounded-lg lg:block">
         <ArrowRight className="rotate-90 object-cover w-full p-3 fill-white xxl:p-3.5"/>
     </div>
         </div>
