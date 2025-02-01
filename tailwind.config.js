@@ -17,7 +17,7 @@ export default {
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],
         spaceMono: ['"Space Mono"', 'monospace'],
-        jersey: ['"Jersey 15"', 'serif']
+        jersey: ['"Jersey 10"', 'serif']
       },
       animation: {
         marquee: 'marquee 30s linear infinite',
