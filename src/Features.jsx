@@ -53,7 +53,7 @@ const Features = () => {
     return ( 
         <section className="bg-secondary ">
             <div className="max-w-7xl mx-auto pb-4 pt-4 md:pt-10 lg:pt-8 lg:flex lg:px-12 xl:px-6 lg:justify-between lg:py-4">
-            <h1 className=" w-[300px] mx-auto text-white font-barlow font-bold text-center text-4xl pt-20 md:w-[600px] md:text-4xl lg:text-left lg:w-[500px] lg:mx-0 xl:text-5xl xl:w-[600px] 2xl:text-6xl 2xl:w-[800px]">Features of DegenZ DAO Membership</h1>
+            <h1 className=" w-[300px] mx-auto text-white font-barlow font-bold text-center text-3xl pt-20 md:w-[600px] md:text-4xl lg:text-left lg:w-[500px] lg:mx-0 xl:text-5xl xl:w-[600px] 2xl:text-6xl 2xl:w-[800px]">Features of DegenZ DAO Membership</h1>
              <div className="pt-2 pb-14 md:pb-20 lg:pt-9 lg:w-[600px] xl:w-[700px]">
             {accordionData.map((item, index) =>{
                 const isActive = activeIndex === index;
