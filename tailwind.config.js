@@ -28,7 +28,7 @@ export default {
         },
       },
       backgroundImage: {
-        'grid-image': "url('grid/Grid1x.png')"
+        'grid-image': "url('/grid/Grid1x.png')"
       },
     },
   },
