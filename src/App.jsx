@@ -14,7 +14,7 @@ const breakpoint = useBreakpoints();
   return (
 
     <>
-    <div className="lg:bg-grid-image bg-contain bg-primary">
+    <div className="lg:bg-grid-image bg-cover xl:bg-contain bg-primary">
     < Header />
     </div>
   <Testimonials breakpoint={breakpoint} />

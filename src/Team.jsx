@@ -59,7 +59,7 @@ const Team = () => {
             </div>
 
             <div className="pt-4 flex-col hidden md:flex xl:pt-8">
-            <div className="flex justify-center mx-8 gap-x-12 lg:gap-x-16 pt-14 xl:gap-x-20">
+            <div className="flex justify-center mx-8 gap-x-12 lg:gap-x-16 pt-14 2xl:gap-x-20">
             <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-28 2xl:w-32">
                     <img src="team\atensun.jpg" alt="" className=" h-auto rounded-2xl"/>
@@ -86,7 +86,7 @@ const Team = () => {
                 </a>
                  </div>
 
-                 <div className="flex justify-center mx-8 pt-16 gap-x-12 lg:gap-x-16 xl:gap-x-20">
+                 <div className="flex justify-center mx-8 pt-16 gap-x-12 lg:gap-x-16 2xl:gap-x-20">
                  <a href="https://x.com/X_cryptopotato?t=lml6vmipPWqwsJ7mHDGc0w&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-28 2xl:w-32">
                     <img src="team\cryptopass.jpg" alt="" className=" h-auto rounded-2xl"/>
