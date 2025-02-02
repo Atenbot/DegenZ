@@ -283,7 +283,7 @@ const Testimonials = ({ breakpoint }) => {
   }
 
   return (
-    <div className="testimonials lg:pt-24 md:pt-20"
+    <div className="testimonials lg:pt-24 md:pt-20 bg-white"
     id="our-story">
       <div className="max-w-7px mx-auto">
       <div className="our-story">

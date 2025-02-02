@@ -10,7 +10,7 @@ const Footer = () => {
                 <TwitterIcon className="w-full object-cover fill-white" />
                 <DiscordIcon className="w-full object-cover fill-white" />
             </div>
-            <p className='font-barlow text-white text-xs text-center pt-4 tracking-wide md:text-base md:pt-4 lg:text-lg'>© 2024 DegenZ DAO | Terms and Conditions |<br></br> Contact Us</p>
+            <p className='font-barlow text-white text-xs text-center pt-4 tracking-wide md:text-base md:pt-4 lg:text-lg'>© 2024 DegenZ DAO | Terms and Conditions |<br></br><span><a href='mailto:aten27sun@gmail.com'>Contact Us</a></span></p>
             <p className="text-white font-barlow text-xs text-center pt-2 tracking-wider md:text-base lg:text-lg">Created By: <a href='https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09"' className='underline'>AtenSun_</a></p>
         </div>
         </div>

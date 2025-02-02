@@ -17,7 +17,6 @@ export default {
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],
         spaceMono: ['"Space Mono"', 'monospace'],
-        jersey: ['"Jersey 10"', 'serif']
       },
       animation: {
         marquee: 'marquee 30s linear infinite',
@@ -27,6 +26,9 @@ export default {
           '0%': { transform: 'translateX(0%)' },
           '100%': {transform: 'translateX(-50%)'},
         },
+      },
+      backgroundImage: {
+        'grid-image': "url('grid/Grid1x.png')"
       },
     },
   },
