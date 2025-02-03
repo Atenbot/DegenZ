@@ -67,7 +67,7 @@ const Features = () => {
                                         onClick={()=> toggleAccordion(index)}
                                         >
                                     <p className={`font-spaceMono text-xl font-bold md:text-3xl lg:text-2xl ${isActive ? "text-black" : "text-white"}`}>{item.title}</p>
-                                    <ChevronDown className={`w-5 h-5 aspect-auto md:w-8 md:h-8 lg:w-7 lg:h-7 ${isActive ? "fill-black" : "fill-white -rotate-90"}`}/>
+                                    <ChevronDown className={`w-5 h-5 aspect-auto md:w-8 md:h-8 lg:w-7 lg:h-7 ${isActive ? "fill-black" : "fill-white -rotate-90 mt-[3px] md:mt-[1px] lg:mt-[0]"}`}/>
                                 </div>
                                {activeIndex === index && (
                                 <div 
