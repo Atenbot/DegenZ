@@ -5,7 +5,7 @@ const Entrance = () => {
   return (
     <div className="bg-secondary px-3 pt-14 pb-14 md:px-8 lg:py-20 lg:px-20 2xl:px-32">
       <div className="bg-white mx-auto max-w-7xl px-4 pt-10 pb-10 rounded-md md:pb-12 md:px-10 md:py-10 lg:py-8 lg:rounded-2xl">
-        <h1 className="text-[1.75rem] text-gray-900 font-barlow font-bold md:text-4xl md:pt-4 lg:text-left lg:text-2xl lg:pt-0 xl:text-3xl">
+        <h1 className="text-[1.75rem] text-gray-900 font-barlow font-bold md:text-4xl md:pt-4 lg:text-left lg:text-2xl lg:pt-0 xl:text-3xl 2xl:text-4xl">
           Membership Entrance
         </h1>
         <div className="flex pt-2 flex-col md:flex-row md:items-center md:gap-4 lg:flex-row lg:justify-center">
