@@ -20,19 +20,25 @@ const data = [
     image: "profile\\maverick.jpg",
     name: "Maverick",
     description: "Lawyer",
-    text: "When I saw a friend get $2K from the Solape drop. I begged my brother for 20 dollars to start crypto and a friend added me to DegenZ.  In a week, I turned it to $2K. That was the start, now I have my house on the way and I just bought my second car. Glory be to God.",
+    text: "When I saw a friend get $2K from the Solape drop. I begged my brother for 20 dollars to start crypto and a friend added me to DegenZ.  In a week, I turned it to $2K. That was the start, now I have my house on the way and I just bought my second car.",
+  },
+  {
+    image: "profile\\donaldtrump.jpg",
+    name: "Donald Trump",
+    description: "President of the United States",
+    text: "DegenZ is the greatest DAO on the planet.",
   },
   {
     image: "profile\\delat.jpg",
     name: "Delat",
     description: "NFT Trader",
-    text: "Bought my kid brother a new phone for his birthday with my profits from Great Goats (13 SOL). I'll never forget his smile. ",
+    text: "Bought my kid brother a new phone for his birthday with my profits from Great Goats (13 SOL). I'll never forget his smile.",
   },
   {
     image: "profile\\zayzay.jpg",
     name: "ZayZay",
     description: "Founder of Goal Diggers DAO",
-    text: "Laroshe (Degen Head) put me and so many others on. Made us get in on SOL when it was only $3",
+    text: "Laroshe (Degen Head) put me and so many others on. Made us get in on SOL when it was only $3.",
   },
   {
     image: "profile\\jasmine.jpg",
@@ -62,12 +68,12 @@ const data = [
     image: "profile\\ade.jpg",
     name: "Ade",
     description: "Cybersecurity Manager",
-    text: "Aten(Degen Head) introduced to DegenZ at age 17 in uni and in one year, I had made enough money to drop out and move to London to begin a Cybersecurity degree programme.",
+    text: "Aten (DegenZ Head) introduced to DegenZ at age 17 in uni and in one year, I had made enough money to drop out and move to London to begin a Cybersecurity degree programme.",
   },
   {
     image: "profile\\kelechi.jpg",
     name: "Kelechi",
-    description: "Backend Developer",
+    description: "Old Taker",
     text: "I had about 1200 dollars on hand when BodeSlomo (DegenZ Head) convinced me to buy SOL when it was priced around 3 dollars back then. The rest is history.",
   },
   {
@@ -171,6 +177,12 @@ const data = [
     name: "Patrick",
     description: "Airdrop Farmer",
     text: "Till this day, when I tell people there is a group where people made $40K - $100K by filling google forms, they don't believe me.",
+  },
+  {
+    image: "profile\\iamflynn.jpg",
+    name: "IamFlynn",
+    description: "NFT Trader",
+    text: "Laroshe shilled RagnarokMeta to us and told us how to get WL. I sold for 2.7 ETH.",
   },
   {
     image: "profile\\zayzay.jpg",
@@ -283,23 +295,24 @@ const Testimonials = ({ breakpoint }) => {
   }
 
   return (
-    <div className="testimonials lg:pt-24 md:pt-20 bg-white"
-    id="our-story">
+    <div className="testimonials lg:pt-24 md:pt-20 bg-white" id="our-story">
       <div className="max-w-7px mx-auto">
-      <div className="our-story">
-        <h1 className="font-barlow font-bold text-4xl text-center pt-20 mx-8 text-secondary md:pt-8 md:text-5xl md:mx-10 lg:mx-32 2xl:text-6xl">
-          "I never thought a gc would change my life."
-        </h1>
-        <p className="mx-6 max-w-3xl pb-16 text-center pt-6 font-barlow leading-tight text-secondary text-lg  md:text-lg md:mx-8 md:pb-24 md:pt-6 lg:mx-auto lg:text-xl lg:pb-24 2xl:text-2xl 2xl:max-w-5xl 2xl:pt-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
+        <div className="our-story">
+          <h1 className="font-barlow font-bold text-4xl text-center pt-20 mx-8 text-secondary md:pt-8 md:text-5xl md:mx-10 lg:mx-32 2xl:text-6xl">
+            "I never thought a gc would change my life."
+          </h1>
+          <p className="mx-6 max-w-3xl pb-16 text-center pt-6 font-barlow leading-tight text-secondary text-lg  md:text-lg md:mx-8 md:pb-24 md:pt-6 lg:mx-auto lg:text-xl lg:pb-24 2xl:text-2xl 2xl:max-w-5xl 2xl:pt-8">
+            At DegenZ, we believe financial freedom is essential to living in
+            the 21st century. Driven by this conviction, for 6 years, we have
+            dedicated ourselves to building a pathway that provides everyday
+            individuals with the tools, knowledge, and community support to
+            break free from economic limitations. Your journey of
+            transforming financial independence from an aspiration to a reality
+            starts here.
+          </p>
+        </div>
+        {content}
       </div>
-      {content}
-      </div>
-
     </div>
   );
 };

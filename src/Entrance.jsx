@@ -8,12 +8,12 @@ const Entrance = () => {
         <h1 className="text-[1.75rem] text-gray-900 font-barlow font-bold md:text-4xl md:pt-4 lg:text-left lg:text-2xl lg:pt-0 xl:text-3xl 2xl:text-4xl">
           Membership Entrance
         </h1>
-        <div className="flex pt-2 flex-col md:flex-row md:items-center md:gap-4 lg:flex-row lg:justify-center">
+        <div className="flex pt-2 flex-col md:flex-row md:items-center md:gap-4 lg:gap-6 lg:flex-row lg:justify-center">
           <p className="font-barlow pb-1.5 w-[280px] text-gray-900 text-sm md:text-3xl md:w-[350px] md:pt-4 lg:text-left lg:text-xl lg:w-full lg:pt-0">
             Looking to join our community? Entry into DegenZ is free and open to
             everbody!
           </p>
-          <div className="flex flex-col pt-8 gap-y-4 md:items-center md:gap-y-4 lg:flex-row lg:gap-x-6 xl:gap-x-10 xl:relative xl:bottom-1  lg:pt-0">
+          <div className="flex flex-col pt-8 gap-y-4 md:items-center md:gap-y-4 lg:flex-row lg:gap-x-6 xl:relative xl:bottom-1  lg:pt-0">
             <a href="https://x.com/_DegenZ">
             <button className="bg-black flex w-full py-1 items-center rounded md:px-8 md:py-2 md:rounded-xl whitespace-nowrap lg:px-5 lg:py-0.5 xl:px-7 xl:py-1.5 xl:rounded-xl">
               <div className="bg-white w-8 h-8 rounded ml-4 mr-2.5 my-2 md:w-10 md:h-10 md:mr-4 md:ml-0 lg:w-7 lg:h-7 lg:mr-2">

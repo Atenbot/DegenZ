@@ -17,7 +17,7 @@ const data = [
     {"name": "Illogics", "image": "projects\\illogics.jpg"},
     {"name": "Great Goats", "image": "projects\\greatgoats.jpg"},
     {"name": "Lily", "image": "projects\\lily.jpg"},
-    {"name": "Trippin' Apes", "image": "projects\\trippingapes.jpg"},
+    {"name": "Coral Tribe", "image": "projects\\coraltribe.jpg"},
     {"name": "Communi3", "image": "projects\\communi3.jpg"}
 ]
 

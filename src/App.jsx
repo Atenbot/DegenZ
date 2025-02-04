@@ -1,3 +1,5 @@
+import React from "react";
+
 import Entrance from "./Entrance";
 import Features from "./Features";
 import Footer from "./Footer";

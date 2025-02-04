@@ -74,7 +74,7 @@ const Team = () => {
                 </a>
                 <a href="https://x.com/kkKelechi_?t=U3gLVtvGLfJV0fDqAYAzZw&s=09">
                 <figure className="flex flex-col items-center w-24 lg:w-28 2xl:w-32">
-                    <img src="team\kkkelechiremastered.jpg" alt="" className=" h-auto rounded-2xl"/>
+                    <img src="team\kkkelechi.jpg" alt="" className=" h-auto rounded-2xl"/>
                     <figcaption className="text-white mt-2 lg:mt-3"><p className="text-center font-spaceMono text-xs md:text-lg">@kkKelechi</p><p className="text-center font-semibold font-barlow text-sm pt-0.5">Tech</p></figcaption>
                 </figure>
                 </a>
