@@ -91,7 +91,7 @@ const Features = () => {
                     className={`w-5 h-5 aspect-auto md:w-8 md:h-8 lg:w-7 lg:h-7 ${
                       isActive
                         ? "fill-black"
-                        : "fill-white -rotate-90 mt-[3px] md:mt-[1px] lg:mt-[0]"
+                        : "fill-white -rotate-90 mt-[2.5px] md:mt-[1px] lg:mt-[0]"
                     }`}
                   />
                 </div>
