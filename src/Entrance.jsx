@@ -25,7 +25,7 @@ const Entrance = () => {
             </button>
             </a>
 
-          <a href="">
+          <a href="https://discord.gg/5dyGxcChJV">
           <button className="bg-primary flex w-full py-1 items-center rounded md:px-8 md:py-2 md:rounded-xl whitespace-nowrap lg:px-5 lg:py-0.5 xl:px-7 xl:py-1.5 xl:rounded-xl">
               <div className="bg-white w-8 h-8 rounded ml-4 mr-2.5 my-2 md:w-10 md:h-10 md:mr-4 md:ml-0 lg:w-7 lg:h-7 lg:mr-2 xl:rounded-small">
                 <DiscordIcon className="w-full fill-primary mt-0.5 h-auto object-cover p-0.5 md:mt-1 lg:mt-0.5 2xl:mt-1" />
