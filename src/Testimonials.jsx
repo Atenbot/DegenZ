@@ -301,7 +301,7 @@ const Testimonials = ({ breakpoint }) => {
           <h1 className="font-barlow font-bold text-4xl text-center pt-20 mx-8 text-secondary md:pt-8 md:text-5xl md:mx-10 lg:mx-24 2xl:text-6xl">
             "One discord invite changed my life."
           </h1>
-          <p className="mx-7 max-w-3xl pb-16 text-center pt-6 font-barlow leading-tight text-secondary text-lg  md:text-lg md:mx-8 md:pb-24 md:pt-6 lg:mx-auto lg:text-xl lg:max-w-[700px] lg:pb-24 2xl:text-2xl 2xl:max-w-5xl 2xl:pt-8">
+          <p className="mx-10 max-w-3xl pb-16 text-center pt-6 font-barlow leading-tight text-secondary text-lg  md:text-lg md:mx-8 md:pb-24 md:pt-6 lg:mx-auto lg:text-xl lg:max-w-[700px] lg:pb-24 2xl:text-2xl 2xl:max-w-5xl 2xl:pt-8">
             At DegenZ, we believe financial freedom is essential to living in
             the 21st century. Driven by this conviction, for 6 years, we have
             dedicated ourselves to building a pathway that provides everyday
