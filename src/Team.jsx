@@ -3,7 +3,7 @@ const Team = () => {
 
         <div className="bg-secondary md:py-20 lg:pt-10">
             <h1 className='text-white text-center font-barlow text-3xl font-bold md:text-4xl lg:mt-0 2xl:text-6xl'>Meet Our Team</h1>
-            <div className="pt-4 flex flex-col pb-10 md:hidden">
+            <div className="pt-4 flex flex-col pb-14 md:hidden">
 
             <div className="flex justify-center mx-8 gap-x-8 py-8 md:gap-16 md:pt-16 xl:gap-x-8">
             <a href="https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09">

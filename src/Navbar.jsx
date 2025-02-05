@@ -31,9 +31,10 @@ const Navbar = () => {
           >
             Features
           </a>
-          <button className="nav-btn px-8 py-3 bg-white text-black rounded-xl font-spaceMono font-bold text-sm md:text-base 2xl:text-xl 2xl:py-5 2xl:px-12 2xl:rounded-2xl">
-            Join Us{" "}
-          </button>
+          <a className="nav-btn px-8 py-3 bg-white text-black rounded-xl font-spaceMono font-bold text-sm md:text-base 2xl:text-xl 2xl:py-5 2xl:px-12 2xl:rounded-2xl"
+          href="https://discord.gg/5dyGxcChJV">
+            Join Us
+          </a>
         </div>
       </div>
     </div>
