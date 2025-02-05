@@ -20,7 +20,7 @@ const Header = () => {
                 Join Us
             </a>
 
-            <div className="mx-auto flex justify-center w-[340px] mt-10 mb-14 md:w-[600px] md:gap-6 md:pt-2 lg:pt-6 lg:gap-12 lg:w-[700px] 2xl:min-w-[1000px]">
+            <div className="mx-auto flex justify-center w-[340px] mt-8 mb-14 md:w-[600px] md:gap-6 md:pt-2 lg:pt-6 lg:gap-12 lg:w-[700px] 2xl:min-w-[1000px]">
               <div className="highlight basis-1/3 md:max-w-34 lg:min-w-44 2xl:max-w-64">
                 <p className="text-white font-spaceMono font-bold text-base text-center md:text-lg 2xl:text-2xl">
                   3K+
