@@ -164,7 +164,7 @@ const data = [
     image: "profile\\terrya.jpg",
     name: "TerryA",
     description: "Community Manager",
-    text: "Taking Laroshe's trading calls has really helped me built up my liquidity.",
+    text: "Taking Laroshe's trading calls has really helped me build up my liquidity.",
   },
   {
     image: "profile\\angel.jpg",
@@ -185,7 +185,7 @@ const data = [
     text: "Laroshe shilled RagnarokMeta to us and told us how to get WL. I sold for 2.7 ETH.",
   },
   {
-    image: "profile\\zayzay.jpg",
+    image: "profile\\nchedo.jpg",
     name: "Nchedo",
     description: "Airdro Maxi",
     text: "Bought my apartment and car with my money from crypto.I don't know where I would be without DegenZ. Probably working some shitty 9-5 lmao.",
