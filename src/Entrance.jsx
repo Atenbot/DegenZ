@@ -9,7 +9,7 @@ const Entrance = () => {
           Membership Entrance
         </h1>
         <div className="flex pt-2 flex-col md:flex-row md:items-center md:gap-4 lg:gap-6 lg:flex-row lg:justify-center">
-          <p className="font-barlow pb-1.5 w-[280px] text-gray-900 text-sm md:text-3xl md:w-[350px] md:pt-4 lg:text-left lg:text-xl lg:w-full lg:pt-0">
+          <p className="font-barlow pb-1.5 w-[300px] text-gray-900 md:text-3xl md:w-[350px] md:pt-4 lg:text-left lg:text-xl lg:w-full lg:pt-0">
             Looking to join our community? Entry into DegenZ is free and open to
             everbody!
           </p>

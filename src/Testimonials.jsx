@@ -306,9 +306,7 @@ const Testimonials = ({ breakpoint }) => {
             the 21st century. Driven by this conviction, for 6 years, we have
             dedicated ourselves to building a pathway that provides everyday
             individuals with the tools, knowledge, and community support to
-            break free from economic limitations. Your journey of
-            transforming financial independence from an aspiration to a reality
-            starts here.
+            break free from economic limitations.
           </p>
         </div>
         {content}

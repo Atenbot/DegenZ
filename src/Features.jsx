@@ -31,7 +31,7 @@ const Features = () => {
     {
       title: "Alpha Insights",
       content:
-        "Experienced members of the DegenZ team continually provide community members with updates on opportunities in the crypto space."
+        "Experienced members of the DegenZ team continually provide community members with updates on profitable opportunities in the crypto space."
     },
     {
       title: "Partner Access",
