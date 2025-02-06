@@ -6,7 +6,7 @@ const Footer = () => {
     return (  
         <div className='bg-primary relative pt-10 pb-12 md:pt-16'>
         <div className="flex flex-col items-center">
-            <div className="flex flex-row-reverse gap-x-4 w-20 md:gap-12 md:min-w-[150px]">
+            <div className="flex flex-row-reverse gap-x-4 items-center w-20 md:gap-12 md:min-w-[150px]">
                 <a href='https://x.com/_DegenZ'><TwitterIcon className="w-full object-cover fill-white" /></a>
                 <a href='https://discord.gg/5dyGxcChJV'><DiscordIcon className="w-full object-cover fill-white" /></a>
             </div>
