@@ -36,8 +36,8 @@ const data = [
   },
   {
     image: "profile\\zayzay.jpg",
-    name: "ZayZay",
-    description: "Founder of Goal Diggers DAO",
+    name: "Zahra",
+    description: "NFT Trader",
     text: "Laroshe (Degen Head) put me and so many others on. Made us get in on SOL when it was only $3.",
   },
   {
