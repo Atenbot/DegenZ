@@ -7,7 +7,7 @@ const data = [
   {
     image: "profile\\daemon.jpg",
     name: "Daemon",
-    description: "NFT Trader",
+    description: "Trader",
     text: "I remember when Laroshe (DegenZ Head) gifted me the very first SOL I got in my wallet. Fast forward and I've made a 100x of it in DegenZ.",
   },
   {
@@ -55,13 +55,13 @@ const data = [
   {
     image: "profile\\montycakes.jpg",
     name: "Montycakes",
-    description: "NFTs Trader",
+    description: "NFT Trader",
     text: "I got three hyped project Whitelists here. Minted Crypto Coral Tribe and sold for 4.5 SOL. I used the liquidity to mint The Orcs (4.5 SOL) and Okay Bears and sold for 58 SOL. A member on here convinced me not to sell for 6 sol.",
   },
   {
     image: "profile\\panda.jpg",
     name: "Panda_nft",
-    description: "NFTs Trader",
+    description: "NFT Trader",
     text: "Minted Okay Bears and sold for 140 SOL. I'm not diamond holding 10K dollars lol.",
   },
   {
@@ -187,7 +187,7 @@ const data = [
   {
     image: "profile\\nchedo.jpg",
     name: "Nchedo",
-    description: "Airdro Maxi",
+    description: "Airdrop Maxi",
     text: "Bought my apartment and car with my money from crypto.I don't know where I would be without DegenZ. Probably working some shitty 9-5 lmao.",
   },
   {
