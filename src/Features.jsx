@@ -72,7 +72,7 @@ const Features = () => {
                 className={`mt-4 bg-secondary px-4 md:mx-6 md:rounded-lg md:py-4 md:px-8 lg:mx-0 lg:py-2 ${
                   isActive
                     ? "bg-white rounded-t-lg transition-colors duration-300"
-                    : "bg-secondary transition-all duration-300"
+                    : "bg-secondary"
                 }`}
               >
                 <div
