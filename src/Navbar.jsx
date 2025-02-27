@@ -20,13 +20,13 @@ const Navbar = () => {
         />
         <div className="flex text-white items-center justify-between md:w-[370px] font-spaceMono font-semibold lg:w-[450px] 2xl:min-w-[550px]">
           <a
-            className="hidden md:block 2xl:text-xl"
+            className="hidden md:block 2xl:text-xl cursor-pointer"
             onClick={scrollStoryIntoView}
           >
             Our Story
           </a>
           <a
-            className="hidden md:block 2xl:text-xl"
+            className="hidden md:block 2xl:text-xl cursor-pointer"
             onClick={scrollFeaturesIntoView}
           >
             Features
