@@ -1,16 +1,15 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import * as Accordion from "@radix-ui/react-accordion";
 import ChevronDown from "./assets/icons/chevron-down-solid.svg?react";
 
 const FeaturesAccordion = () => {
   const [openItem, setOpenItem] = React.useState(null);
-  const containerRef = useRef(null);
-  const itemPositions = useRef({});
+
   const accordionData = [
     {
       title: "Learning Resources",
       content:
-        "DegenZ has a well-curated list of study materials and guides on a wide range of cryptocurrency networks available to it's members.",
+        "DegenZ has a well-curated list of study materials and guides on a wide range of cryptocurrency networks available to it’s members.",
     },
     {
       title: "Alpha Insights",
@@ -39,84 +38,10 @@ const FeaturesAccordion = () => {
     },
   ];
 
-  // Store the initial position of each accordion item
-  useEffect(() => {
-    if (containerRef.current) {
-      const updatePositions = () => {
-        const items = containerRef.current.querySelectorAll(
-          "[data-accordion-item]"
-        );
-        items.forEach((item) => {
-          const { offsetTop } = item;
-          const id = item.getAttribute("data-value");
-          itemPositions.current[id] = offsetTop;
-        });
-      };
-
-      // Initial position recording
-      updatePositions();
-
-      // Update positions on window resize
-      window.addEventListener("resize", updatePositions);
-      return () => window.removeEventListener("resize", updatePositions);
-    }
-  }, [accordionData]);
-
-  const handleValueChange = (value) => {
-    // Get current scroll position
-    const scrollPosition = window.scrollY;
-    const previousItem = openItem;
-
-    if (value === previousItem) {
-      // Simply closing an item, just update state
-      setOpenItem(value);
-      return;
-    }
-
-    // Remember current positions before state changes
-    const itemsBeforeUpdate = {};
-    const items = containerRef.current.querySelectorAll(
-      "[data-accordion-item]"
-    );
-    items.forEach((item) => {
-      const id = item.getAttribute("data-value");
-      itemsBeforeUpdate[id] = item.getBoundingClientRect().top + window.scrollY;
-    });
-
-    // Update the state
-    setOpenItem(value);
-
-    // After DOM update, fix the scroll position
-    setTimeout(() => {
-      if (!value) return; // Nothing to adjust if we're just closing
-
-      const clickedItem = containerRef.current.querySelector(
-        `[data-value="${value}"]`
-      );
-      if (!clickedItem) return;
-
-      // Get new position of the clicked item
-      const newPosition =
-        clickedItem.getBoundingClientRect().top + window.scrollY;
-      const oldPosition = itemsBeforeUpdate[value] || 0;
-
-      // Calculate the difference and adjust scroll
-      const diff = newPosition - oldPosition;
-      if (Math.abs(diff) > 5) {
-        // Only adjust if difference is significant
-        window.scrollTo({
-          top: scrollPosition + diff,
-          behavior: "auto",
-        });
-      }
-    }, 10); // Small delay to let DOM update
-  };
+  const handleValueChange = (value) => setOpenItem(value);
 
   return (
-    <div
-      ref={containerRef}
-      className="pt-2 pb-14 md:pb-20 lg:pt-11 xl:pt-18 lg:w-[600px] xl:w-[700px]"
-    >
+    <div className="pt-2 pb-14 md:pb-20 lg:pt-11 xl:pt-18 lg:w-[600px] xl:w-[700px]">
       <Accordion.Root
         type="single"
         collapsible
@@ -131,11 +56,8 @@ const FeaturesAccordion = () => {
             <Accordion.Item
               key={index}
               value={itemValue}
-              data-value={itemValue}
-              data-accordion-item
               className={`py-2 overflow-hidden md:rounded-lg md:py-4 md:px-6 lg:mx-0 lg:px-0 lg:py-2
-                bg-secondary transition-colors duration-300 my-4 relative
-                ${isOpen ? "z-10" : "z-0"}`}
+          bg-secondary transition-colors duration-300`}
             >
               <Accordion.Header
                 className={`${
@@ -144,20 +66,18 @@ const FeaturesAccordion = () => {
               >
                 <Accordion.Trigger
                   className={`flex items-center justify-between w-full px-4 pt-5 md:pt-6 md:px-2 lg:py-2 lg:pt-5 lg:pb-0
-                  font-spaceMono text-xl font-bold md:text-3xl lg:text-2xl
-                  transition-colors duration-300 ${
-                    isOpen ? "text-black" : "text-white"
-                  }`}
+               font-spaceMono text-xl font-bold md:text-3xl lg:text-2xl
+               transition-colors duration-300 ${
+                 isOpen ? "text-black" : "text-white"
+               }`}
                 >
                   {item.title}
                   <ChevronDown
                     className={`w-5 h-5 md:w-8 md:h-8 lg:w-7 lg:h-7
-                    transition-all duration-300
-                    ${
-                      isOpen
-                        ? "rotate-0 fill-gray-900"
-                        : "-rotate-90 fill-white"
-                    }`}
+                transition-all duration-300
+                  ${
+                    isOpen ? "rotate-0 fill-gray-900" : "-rotate-90 fill-white"
+                  }`}
                   />
                 </Accordion.Trigger>
               </Accordion.Header>
@@ -177,7 +97,6 @@ const FeaturesAccordion = () => {
     </div>
   );
 };
-
 const Features = () => {
   return (
     <section className="bg-secondary" id="features">
