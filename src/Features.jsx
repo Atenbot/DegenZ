@@ -155,7 +155,7 @@ const FeaturesAccordion = () => {
                     transition-all duration-300
                     ${
                       isOpen
-                        ? "rotate-180 fill-gray-900"
+                        ? "rotate-0 fill-gray-900"
                         : "-rotate-90 fill-white"
                     }`}
                   />
