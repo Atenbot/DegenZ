@@ -16,35 +16,38 @@ const Header = () => {
             <h1 className="text-4xl pt-12 text-white mx-auto text-center w-[350px] font-barlow font-extrabold  md:w-[700px] md:pt-32 md:text-5xl md:leading-tight lg:text-6xl lg:w-[900px] lg:leading-[1.2] lg:pt-4 2xl:text-7xl 2xl:w-[1200px]">
               Facilitating Financial Freedom Through Crypto.
             </h1>
-            <a href="https://discord.gg/5dyGxcChJV" className="mt-8 w-full py-3 bg-white text-black text-center rounded-xl font-spaceMono font-bold md:w-fit md:px-8 md:text-base lg:mt-8 2xl:text-xl 2xl:py-5 2xl:px-12 2xl:rounded-2xl 2xl:mt-10">
-                Join Us
+            <a
+              href="https://discord.gg/vvg7NdN7tu"
+              className="mt-8 w-full py-3 bg-white text-black text-center rounded-xl font-spaceMono font-bold md:w-fit md:px-8 md:text-base lg:mt-8 2xl:mt-10"
+            >
+              Join Us
             </a>
 
-            <div className="mx-auto flex justify-center w-[340px] mt-8 mb-14 md:w-[600px] md:gap-6 md:pt-2 lg:pt-6 lg:gap-12 lg:w-[700px] 2xl:min-w-[1000px]">
-              <div className="highlight basis-1/3 md:max-w-34 lg:min-w-44 2xl:max-w-64">
-                <p className="text-white font-spaceMono font-bold text-base text-center md:text-lg 2xl:text-2xl">
+            <div className="mx-auto flex justify-center w-[340px] mt-8 mb-14 md:w-[600px] md:gap-6 md:pt-2 lg:pt-6 lg:gap-12 lg:w-[700px] 2xl:min-w-[900px]">
+              <div className="highlight basis-1/3 md:max-w-34 lg:min-w-44 2xl:max-w-60">
+                <p className="text-white font-spaceMono font-bold text-base text-center md:text-lg 2xl:text-lg">
                   3K+
                 </p>
-                <p className="highlight-paragraph text-white text-center font-barlow leading-snug text-xs mt-1 md:text-base 2xl:text-xl">
+                <p className="highlight-paragraph text-white text-center font-barlow leading-snug text-xs mt-1 md:text-base 2xl:text-lg">
                   {" "}
                   members on our discord server{" "}
                 </p>
               </div>
 
-              <div className="highlight basis-1/3 md:max-w-34 lg:min-w-44 2xl:max-w-64">
-                <p className="text-white font-spaceMono font-bold text-base text-center md:text-lg 2xl:text-2xl">
+              <div className="highlight basis-1/3 md:max-w-34 lg:min-w-44 2xl:max-w-60">
+                <p className="text-white font-spaceMono font-bold text-base text-center md:text-lg 2xl:text-lg">
                   $4M+
                 </p>
-                <p className="highlight-paragraph text-white text-center font-barlow leading-snug text-xs mt-1 md:text-base 2xl:text-xl">
+                <p className="highlight-paragraph text-white text-center font-barlow leading-snug text-xs mt-1 md:text-base 2xl:text-lg">
                   {" "}
                   in collective profit from our group{" "}
                 </p>
               </div>
-              <div className="highlight basis-1/3 md:max-w-34 lg:min-w-44 2xl:max-w-64">
-                <p className="text-white font-spaceMono font-bold text-base text-center md:text-lg 2xl:text-2xl">
+              <div className="highlight basis-1/3 md:max-w-34 lg:min-w-44 2xl:max-w-60">
+                <p className="text-white font-spaceMono font-bold text-base text-center md:text-lg 2xl:text-lg">
                   200+
                 </p>
-                <p className="highlight-paragraph text-white text-center font-barlow leading-snug text-xs mt-1 md:text-base 2xl:text-xl">
+                <p className="highlight-paragraph text-white text-center font-barlow leading-snug text-xs mt-1 md:text-base 2xl:text-lg">
                   {" "}
                   collaborations with Web3 projects{" "}
                 </p>

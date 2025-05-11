@@ -9,7 +9,7 @@ const FeaturesAccordion = () => {
     {
       title: "Learning Resources",
       content:
-        "DegenZ has a well-curated list of study materials and guides on a wide range of cryptocurrency networks available to it’s members.",
+        "DegenZ has a voluminous and well-curated list of study materials and guides on a wide range of cryptocurrency networks available to it’s members.",
     },
     {
       title: "Alpha Insights",
@@ -19,29 +19,29 @@ const FeaturesAccordion = () => {
     {
       title: "Partner Access",
       content:
-        "DegenZ members enjoy access to several web3 projects that we partner and collaborate with. Benefiting from whitelists, pre-sale participation and tool access.",
+        "Members of DegenZ will gain access to the several web3 projects that we partner and collaborate with, benefiting from whitelists for their NFT mints, pre-sale participation and access to their tools.",
     },
     {
       title: "Trading Signals",
       content:
-        "DegenZ has employed a dedicated team of experienced traders to give calls to our members on memecoin, spot, and futures trading.",
+        "DegenZ has employed a dedicated team of proven traders to give calls to our members on memecoin, spot, and futures trading.",
     },
     {
       title: "Job Opportunities",
       content:
-        "DegenZ possesses a robust job-seeking system that continually updates members on job opportunities in the space along with mentors to guide them.",
+        "DegenZ possesses a robust job-seeking system that continually updates members on job opportunities in the space along with experienced mentos to guide them on their journey.",
     },
     {
       title: "Community Network",
       content:
-        "With a community many thousands strong, members of DegenZ have access to a pool of talented individuals whom they can make beneficial friendships and connections with.",
+        "With a community many thousands strong, members of DegenZ have access to a pool of talented and experienced individuals whom they can make beneficial friendships and connections with.",
     },
   ];
 
   const handleValueChange = (value) => setOpenItem(value);
 
   return (
-    <div className="pt-2 pb-14 md:pb-20 lg:pt-11 xl:pt-18 lg:w-[600px] xl:w-[700px]">
+    <div className="pt-2 pb-14 md:pb-20 lg:pt-14 x lg:w-[600px] xl:w-[700px]">
       <Accordion.Root
         type="single"
         collapsible
@@ -56,16 +56,16 @@ const FeaturesAccordion = () => {
             <Accordion.Item
               key={index}
               value={itemValue}
-              className={`py-2 overflow-hidden md:rounded-lg md:py-4 md:px-6 lg:mx-0 lg:px-0 lg:py-2
+              className={`py-2 overflow-hidden md:rounded-lg md:py-4 md:mx-6 lg:mx-0 lg:py-4
           bg-secondary transition-colors duration-300`}
             >
               <Accordion.Header
                 className={`${
                   isOpen ? "bg-white" : "bg-secondary"
-                } transition-colors duration-300 md:px-6 md:py-2 rounded-t-lg`}
+                } transition-colors duration-300 md:px-6 rounded-t-lg`}
               >
                 <Accordion.Trigger
-                  className={`flex items-center justify-between w-full px-4 pt-5 md:pt-6 md:px-2 lg:py-2 lg:pt-5 lg:pb-0
+                  className={`flex items-center justify-between w-full px-4 pt-5 md:px-2 md:pt-8 lg:py-2
                font-spaceMono text-xl font-bold md:text-3xl lg:text-2xl
                transition-colors duration-300 ${
                  isOpen ? "text-black" : "text-white"
@@ -82,11 +82,11 @@ const FeaturesAccordion = () => {
                 </Accordion.Trigger>
               </Accordion.Header>
               <div
-                className={`bg-white overflow-hidden md:rounded-b-lg md:px-6 ${
+                className={`bg-white overflow-hidden md:rounded-b-lg px-20${
                   isOpen ? "opacity-100" : "opacity-0"
                 } transition-opacity duration-300`}
               >
-                <Accordion.Content className="data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden px-4 mt-4 mr-4 pb-5 text-black font-barlow md:text-2xl md:px-2 md:mt-2 md:pb-8 lg:text-xl">
+                <Accordion.Content className="data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden px-4 mt-4 mr-4 pb-5 text-black font-barlow md:text-2xl md:px-2 md:mt-2 lg:text-xl">
                   <p className="ml-4 md:ml-0">{item.content}</p>
                 </Accordion.Content>
               </div>

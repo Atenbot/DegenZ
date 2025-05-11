@@ -1,20 +1,39 @@
-import TwitterIcon from './assets/icons/x-twitter-brands-solid.svg?react'
-import DiscordIcon from './assets/icons/discord-brands-solid.svg?react'
-
+import TwitterIcon from "./assets/icons/x-twitter-brands-solid.svg?react";
+import DiscordIcon from "./assets/icons/discord-brands-solid.svg?react";
+import TelegramIcon from "./assets/icons/telegram-brands.svg?react";
+import EnvelopeIcon from "./assets/icons/envelope-regular.svg?react";
 
 const Footer = () => {
-    return (  
-        <div className='bg-primary relative pt-10 pb-12 md:pt-16'>
-        <div className="flex flex-col items-center">
-            <div className="flex flex-row-reverse gap-x-4 items-center w-20 md:gap-12 md:min-w-[150px]">
-                <a href='https://x.com/_DegenZ'><TwitterIcon className="w-full object-cover fill-white" /></a>
-                <a href='https://discord.gg/5dyGxcChJV'><DiscordIcon className="w-full object-cover fill-white" /></a>
-            </div>
-            <p className='font-barlow text-white text-xs text-center pt-4 tracking-wide md:text-base md:pt-4 2xl:text-lg'>© 2024 DegenZ DAO | Terms and Conditions |<br></br><span><a href='mailto:aten27sun@gmail.com'>Contact Us</a></span></p>
-            <p className="text-white font-barlow text-xs text-center pt-2 tracking-wider md:text-base 2xl:text-lg">Created By: <a href='https://x.com/AtenSun_?t=T2lXeuFpO9_0CyM2qB3Fhw&s=09"' className='underline'>AtenSun_</a></p>
+  return (
+    <div className="bg-primary">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex gap-x-6 mx-auto w-48 pt-8 fill-white md:w-60 xl:pt-14 justify-between">
+          <a href="https://x.com/_DegenZ">
+            <TwitterIcon className="aspect-square w-7 md:w-9" />
+          </a>
+          <a href="https://discord.gg/vvg7NdN7tu">
+            <DiscordIcon className="aspect-square w-7 md:w-9" />
+          </a>
+          <a href="https://t.me/+Tub37_BXfz4wZDI0">
+            {" "}
+            <TelegramIcon className="aspect-square w-7 md:w-9" />
+          </a>
+          <a href="mailto:aten27sun@gmail.com">
+            {" "}
+            <EnvelopeIcon className="aspect-square w-7 md:w-9" />
+          </a>
         </div>
+        <div className="flex justify-between py-6 mx-4 text-white items-center md:py-10">
+          <p className="text-xs font-barlow tracking-wide">
+            © 2024 DegenZ DAO{" "}
+          </p>
+          <p className="text-sm font-barlow tracking-wider">
+            <a href="mailto:aten27sun@gmail.com"> Contact Us</a> | Terms{" "}
+          </p>
         </div>
-    );
-}
- 
+      </div>
+    </div>
+  );
+};
+
 export default Footer;
