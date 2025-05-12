@@ -86,8 +86,10 @@ const FeaturesAccordion = () => {
                   isOpen ? "opacity-100" : "opacity-0"
                 } transition-opacity duration-300`}
               >
-                <Accordion.Content className="data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden px-4 mt-4 mr-4 pb-5 text-black font-barlow md:text-2xl md:px-2 md:mt-2 md:pb-8 lg:text-xl">
-                  <p className="ml-4 md:ml-0">{item.content}</p>
+                <Accordion.Content className="data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden">
+                  <div className="px-4 mt-4 mr-4 pb-5 text-black font-barlow md:text-2xl md:px-2 md:mt-2 md:pb-8 lg:text-xl">
+                    <p className="ml-4 md:ml-0">{item.content}</p>
+                  </div>
                 </Accordion.Content>
               </div>
             </Accordion.Item>
